@@ -30,6 +30,7 @@ type User @key(fields: "id") {
     @tag(name: "private")
     @shareable
   timeZone: String
+  dayLightSaving: String
 
   """
   The user's active cart session. Once the cart items have been purchases, they transition to an Order
