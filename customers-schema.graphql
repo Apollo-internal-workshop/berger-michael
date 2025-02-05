@@ -30,6 +30,7 @@ type User @key(fields: "id") {
     @tag(name: "private")
     @shareable
   timeZone: String
+  """ Flag for DST """
   dayLightSaving: String
 
   """
