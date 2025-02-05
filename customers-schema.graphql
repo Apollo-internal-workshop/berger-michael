@@ -29,6 +29,7 @@ type User @key(fields: "id") {
   email: String!
     @tag(name: "private")
     @shareable
+  """ time zone of the customer """
   timeZone: String
 
   """
